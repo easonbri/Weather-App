@@ -19,8 +19,7 @@ function search(event) {
   let apiKey = "24ee9899289258327dcf68f8a9c2019d";
   let city = "boston";
   let apiUrl =
-    "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}";
-  console.log(apiUrl);
+https://home.openweathermap.org/api_keys  console.log(apiUrl);
 }
 
 function convertToFahrenheit(event) {
