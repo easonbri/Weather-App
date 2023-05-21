@@ -1,4 +1,5 @@
 div.container {
+  max-width: 600 px;
   text-align: center;
   font-family: monospace;
   margin: 10px;
