@@ -1,8 +1,7 @@
 div.container {
-  max-width: 600 px;
   text-align: center;
   font-family: monospace;
-  margin: 10px;
+  margin: 20px;
 }
 div.wht {
   color: #ff3266;
@@ -32,7 +31,6 @@ div.row {
   font-weight: bolder;
   font-family: monospace;
   font-size: larger;
-  text-align: center;
 }
 div.today {
   color: #4eae53;
