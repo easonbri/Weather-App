@@ -16,12 +16,10 @@ function format(date) {
 
 function search(event) {
   event.preventDefalt();
-  let apiKey = "24ee9899289258327dcf68f8a9c2019d";
+  let apiKey = "f5029b784306910c19746e40c14d6cd3";
   let city = "boston";
-  let apiUrl =
-https://home.openweathermap.org/api_keys  console.log(apiUrl);
+  let apiUrl = "https://www.shecodes.io/learn/open_weather_api_keys";
 }
-
 function convertToFahrenheit(event) {
   event.preventDefalt();
   let temperatureElement = document.querySelector("#temperature");
@@ -30,7 +28,7 @@ function convertToFahrenheit(event) {
 
 function convertToCelsius(event) {
   event.preventDefalt();
-  let temperatureElement = document.querySelector("#temperatre");
+  let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = 19;
 }
 
