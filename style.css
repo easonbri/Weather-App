@@ -6,13 +6,9 @@ div.container {
 }
 div.wht {
   color: #ff3266;
-  position: relative;
-  left: 22px;
 }
 div.themf {
   color: #ab47bd;
-  position: relative;
-  right: 35px;
 }
 div.Weather {
   color: #4eae53;
@@ -21,51 +17,32 @@ div.button {
   text-align: center;
 }
 h1.wtw {
-  text-align: center;
-  position: relative;
-  top: 200px;
-  bottom: 200px;
   font-weight: bolder;
 }
 h1 {
   color: #ff3266;
 }
 footer {
-  position: relative;
-  top: 15px;
-  bottom: 50px;
+  text-align: center;
 }
 form {
-  position: relative;
-  top: 200px;
 }
 div.row {
   color: #ab47bd;
   font-weight: bolder;
   font-family: monospace;
   font-size: larger;
-  position: relative;
-  left: 250px;
 }
 div.today {
   color: #4eae53;
-  position: relative;
-  left: 285px;
 }
 div.now {
   color: #4eae53;
   font-size: 120px;
-  position: relative;
-  left: 310px;
-  bottom: 120px;
 }
 div.highlow {
-  position: relative;
-  left: 82px;
 }
 div.describe {
-  position: relative;
-  left: 45px;
 }
 h1.current {
   text-align: center;
@@ -81,8 +58,6 @@ div.emoji {
 }
 div.footer {
   text-align: center;
-  position: relative;
-  left: 125px;
   font-family: monospace;
   color: #ab47bd;
 }
