@@ -60,3 +60,9 @@ div.footer {
   font-family: monospace;
   color: #ab47bd;
 }
+li {
+  list-style-type: none;
+}
+h4 {
+  text-align: center;
+}
