@@ -24,8 +24,6 @@ h1 {
 footer {
   text-align: center;
 }
-form {
-}
 div.row {
   color: #ab47bd;
   font-weight: bolder;
@@ -38,10 +36,6 @@ div.today {
 div.now {
   color: #4eae53;
   font-size: 120px;
-}
-div.highlow {
-}
-div.describe {
 }
 h1.current {
   text-align: center;
@@ -64,5 +58,5 @@ li {
   list-style-type: none;
 }
 h4 {
-  text-align: center;
+  position: center;
 }
