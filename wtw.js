@@ -8,7 +8,7 @@ function formatDate(date) {
   if (minutes < 10) {
     minutes = "0${minutes}";
   }
-  let dayIndex = date.getDay;
+  let dayIndex = date.getDay();
   let days = [
     "Sunday",
     "Monday",
@@ -19,7 +19,7 @@ function formatDate(date) {
     "Saturday",
   ];
   let day = days[dayIndex];
-  return "${days[dayIndex]} ${hours}:{minutes}";
+  return `${day} ${hours} :${minutes}`;
 }
 
 let dateElement = document.querySelector("#date");
