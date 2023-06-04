@@ -19,7 +19,13 @@ function formatDate(date) {
     "Saturday",
   ];
   let day = days[dayIndex];
-  return `${day} ${hours} :${minutes}`;
+  return `${day} ${hours}:${minutes}`;
+}
+function search(cityInput) {
+  cityInput.preventDefault();
+  let cityElement = document.querySelector("#city");
+  let cityInput = document.querySelector("#city-input");
+  cityElement.innerHTML = cityInput.value;
 }
 
 let dateElement = document.querySelector("#date");
