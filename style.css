@@ -1,11 +1,8 @@
 div.container {
   text-align: center;
   font-family: monospace;
-  width: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: max-content;
+  margin: 0 auto;
 }
 #wht {
   color: #ff3266;
@@ -22,7 +19,7 @@ div.button {
 h1.wtw {
   font-weight: bolder;
 }
-h1 {
+h2 {
   color: #ff3266;
 }
 footer {
@@ -37,9 +34,9 @@ div.row {
 div.today {
   color: #4eae53;
 }
-div.now {
+ul {
   color: #4eae53;
-  font-size: 120px;
+  font-size: 50px;
 }
 h1.current {
   text-align: center;
@@ -61,9 +58,8 @@ div.footer {
 li {
   list-style-type: none;
 }
-h4 {
-  position: center;
-}
 #wtw {
   text-align: center;
+}
+li.wya {
 }
