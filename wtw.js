@@ -1,13 +1,13 @@
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  temperatureElement.innerHTML = Math.round(response.data.temperature.current);
+}
+function getInfo(api) {
+  let apiKey = "f4df316dfa42f0bcf01ddct7223o4aca";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=boston&key=f4df316dfa42f0bcf01ddct7223o4aca&units=metric`;
 }
 
-let apiKey = "f4df316dfa42f0bcf01ddct7223o4aca";
-let apiUrl =
-  "https://api.shecodes.io/weather/v1/current?query={boston}&key={f4df316dfa42f0bcf01ddct7223o4aca}&units=metric";
-
-axios.get(url).then(displayTemperature);
+axios.get(apiUrl).then(displayTemperature);
 
 function formatDate(date) {
   let hours = date.getHours();
@@ -58,8 +58,10 @@ let currentTime = new Date();
 console.log(new Date());
 dateElement.innerHTML = formatDate(currentTime);
 
-let fahrenheitLink = document.querySelector("fahrenheit-link");
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", convertToFahrenheit);
 
-let celsiusLink = document.querySelector("celsius-link");
+let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
+
+const call = document.querySelector(".call-api");
