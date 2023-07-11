@@ -2,12 +2,13 @@ function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(response.data.temperature.current);
 }
-function getInfo(api) {
+function getInfo(event) {
+  event.preventDefault();
   let apiKey = "f4df316dfa42f0bcf01ddct7223o4aca";
-  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=boston&key=f4df316dfa42f0bcf01ddct7223o4aca&units=metric`;
+  let cityInput = document.querySelector("#city-input");
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${cityInput.value}&key=f4df316dfa42f0bcf01ddct7223o4aca&units=metric`;
+  axios.get(apiUrl).then(displayTemperature);
 }
-
-axios.get(apiUrl).then(displayTemperature);
 
 function formatDate(date) {
   let hours = date.getHours();
@@ -51,7 +52,7 @@ function convertToCelsius(event) {
 }
 
 let formElement = document.querySelector("#search-form");
-formElement.addEventListener("submit", search);
+formElement.addEventListener("submit", getInfo);
 
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();

@@ -1,65 +1,23 @@
-div.container {
-  text-align: center;
-  font-family: monospace;
-  max-width: max-content;
-  margin: 0 auto;
-}
-#wht {
-  color: #ff3266;
-}
-#themf {
-  color: #ab47bd;
-}
-#weather {
-  color: #4eae53;
-}
-div.button {
-  text-align: center;
-}
-h1.wtw {
-  font-weight: bolder;
-}
-h2 {
-  color: #ff3266;
-}
-footer {
-  text-align: center;
-}
-div.row {
-  color: #ab47bd;
-  font-weight: bolder;
-  font-family: monospace;
-  font-size: larger;
-}
-div.today {
-  color: #4eae53;
-}
 ul {
-  color: #4eae53;
-  font-size: 50px;
+  list-style: none;
 }
-h1.current {
+.card {
+  margin: 200px;
   text-align: center;
+  opacity: 0.5;
 }
-div.line {
-  color: #ab47bd;
+#dotw {
+  display: inline-block;
+  padding: 20px;
 }
-div.degrees {
-  font-size: 80px;
+.head {
+  text-align: left;
+  padding-left: 20px;
 }
-div.emoji {
-  font-size: 80px;
+body {
+  background-image: url("mountainsunset.jpg");
 }
-div.footer {
-  text-align: center;
-  font-family: monospace;
-  color: #ab47bd;
-}
-li {
-  list-style-type: none;
-}
-#wtw {
-  text-align: center;
-}
-li.wya {
+
+.bg-image {
+  background-image: url("mountainsunset.jpg");
 }

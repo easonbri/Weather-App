@@ -15,86 +15,42 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>
-        <div id="wht">What's</div>
-        <div id="themf">The</div>
-        <div id="weather">Weather?</div>
-      </h1>
-      <div class="weather-app">
-        <form class="search-form" id="search-form">
-          <input
-            type="cityInput"
-            placeholder="City/State"
-            autofocus="on"
-            autocomplete="off"
-            id="city-input"
-            class="form-control shadow-sm"
-          />
+    <container>
+      <div class="card">
+        <div class="search">
+          <section class="head">
+            <h1>Whats The Weather?</h1>
+            <input type="text" placeholder="Enter city" />
+            <button>WTW</button>
+          </section>
+
           <br />
-
-          <div class="button">
-            <input type="button" value="check weather" />
-          </div>
-        </form>
-
-        <h2>
-          <div id="city"></div>
-          <div id="date"></div>
-          <div class="describe">Mostly Clear</div>
-          <div class="now">
-            <span class="temperature" id="temperature"></span>
-            <span class="units">
-              <a href="#" id="celsius-link">°C</a> |
-              <a href="#" id="fahrenheit-link">°F</a>
-            </span>
-          </div>
-        </h2>
-        <h3>
-          <div class="card" style="width: 18rem">
-            <div class="card-header">MONDAY</div>
-            <ul class="list-group list-group-flush">
-              <li class="High">High</li>
-              <li class="Low">Low</li>
-              <li class="Description"></li>
-            </ul>
-            <div class="card" style="width: 18rem">
-              <div class="card-header">TUESDAY</div>
-              <ul class="list-group list-group-flush">
-                <li class="High">High</li>
-                <li class="Low">Low</li>
-                <li class="Description"></li>
-              </ul>
-            </div>
-            <div class="card" style="width: 18rem">
-              <div class="card-header">WEDNESDAY</div>
-              <ul class="list-group list-group-flush">
-                <li class="High">High</li>
-                <li class="Low">Low</li>
-                <li class="Description"></li>
-              </ul>
-            </div>
-            <div class="card" style="width: 18rem">
-              <div class="card-header">THURSDAY</div>
-              <ul class="list-group list-group-flush">
-                <li class="High">High</li>
-                <li class="Low">Low</li>
-                <li class="Description"></li>
-              </ul>
-            </div>
-          </div>
-        </h3>
+          <section id="dotw">
+            <h2>Monday</h2>
+            <p id="currentWeather"></p>
+          </section>
+          <section id="dotw">
+            <h2>Tuesday</h2>
+            <p id="emoji"></p>
+            <p id="currentWeather"></p>
+          </section>
+          <section id="dotw">
+            <h2>Wednesday</h2>
+            <p id="emoji"></p>
+            <p id="currentWeather"></p>
+          </section>
+          <section id="dotw">
+            <h2>Thursday</h2>
+            <p id="emoji"></p>
+            <p id="currentWeather"></p>
+          </section>
+          <section id="dotw">
+            <h2>Friday</h2>
+            <p id="emoji"></p>
+            <p id="currentWeather"></p>
+          </section>
+        </div>
       </div>
-
-      <div class="footer">
-        <footer>
-          <a href="https://github.com/easonbri/Weather-App"
-            >Open source code
-          </a>
-          By Brianna Eason
-        </footer>
-      </div>
-    </div>
-    <script src="wtw.js"></script>
+    </container>
   </body>
 </html>
