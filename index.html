@@ -13,9 +13,10 @@
     />
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="./wtw.js"></script>
   </head>
   <body>
-    <container>
+    <container class="bg.image">
       <div class="card">
         <div class="search">
           <section class="head">
@@ -23,29 +24,35 @@
             <input type="text" placeholder="Enter city" />
             <button>WTW</button>
           </section>
+          <section class="currently">
+            <h2 id="city">Boston</h2>
+            <p id="emoji">🌤</p>
+            <p id="currentWeather"></p>
+          </section>
 
           <br />
           <section id="dotw">
-            <h2>Monday</h2>
-            <p id="currentWeather"></p>
-          </section>
-          <section id="dotw">
-            <h2>Tuesday</h2>
+            <h3>Monday</h3>
             <p id="emoji"></p>
             <p id="currentWeather"></p>
           </section>
           <section id="dotw">
-            <h2>Wednesday</h2>
+            <h3>Tuesday</h3>
             <p id="emoji"></p>
             <p id="currentWeather"></p>
           </section>
           <section id="dotw">
-            <h2>Thursday</h2>
+            <h3>Wednesday</h3>
             <p id="emoji"></p>
             <p id="currentWeather"></p>
           </section>
           <section id="dotw">
-            <h2>Friday</h2>
+            <h3>Thursday</h3>
+            <p id="emoji"></p>
+            <p id="currentWeather"></p>
+          </section>
+          <section id="dotw">
+            <h3>Friday</h3>
             <p id="emoji"></p>
             <p id="currentWeather"></p>
           </section>

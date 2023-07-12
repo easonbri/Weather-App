@@ -4,7 +4,8 @@ ul {
 .card {
   margin: 200px;
   text-align: center;
-  opacity: 0.5;
+  background-color: pink;
+  color: white;
 }
 #dotw {
   display: inline-block;
@@ -15,9 +16,16 @@ ul {
   padding-left: 20px;
 }
 body {
-  background-image: url("mountainsunset.jpg");
+  background-color: pink;
+  background-image: url("sunny.jpg");
 }
 
 .bg-image {
-  background-image: url("mountainsunset.jpg");
+  background-image: url("sunny.jpg");
+}
+p {
+  font-size: 80px;
+}
+h2 {
+  padding-top: 20px;
 }
